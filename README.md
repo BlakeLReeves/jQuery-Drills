@@ -1,12 +1,12 @@
-#Simple jQuery Drills
-##Objective
+# Simple jQuery Drills
+## Objective
 Practice using the fundamentals of jQuery that were explored in lecture.
 
-##Setup
+## Setup
 * Create a new project folder and connect it to a GitHub repository. Initialize your project with a README.md that has a brief description of the purpose of this assignment, along with the title "jQuery Drills".
 * Create an index.html file and an app.js file and link the two together.
 * Create a script tag in the index.html and link to the jQuery CDN.
-##Tasks
+## Tasks
 * In app.js, make sure all the HTML has loaded before using jQuery. (hint)
 * Create an <input> with a type="submit", id="btnSubmit", and value="Submit" in the index.html. Open the index.html in a browser and verify that a button appears.
 * In app.js and use jQuery to select the <input> element you just created by the id.
@@ -22,11 +22,11 @@ Use jQuery to create an unordered list and append it to the body
 * When the user submits the form, append the text as list item to the unordered list
 * When the user clicks on the li element, assign it a random color.
 * When the user double clicks on the list, remove the item that was clicked on. (hint)
-##Hints
+## Hints
 * jQuery on method: http://api.jquery.com/on/
 * jQuery click method: https://api.jquery.com/click/
 * Math.random() can be used to generate a random number
     * RGB colors range from rgb(0, 0, 0) for black to rgb(255, 255, 255) for white
     * You will want to generate 3 random numbers between 0 and 255 and set the RGB values using jQuery
-##Submission
+## Submission
 * Commit your changes and push to your GitHub profile.
