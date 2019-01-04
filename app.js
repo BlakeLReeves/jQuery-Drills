@@ -17,7 +17,7 @@ $(document).ready(function () {
         let getValue = $(`input[type=text]`).val();
         alert(getValue);
 
-        let $myH2 = $(`<h2></h2>`);
+        /*let $myH2 = $(`<h2></h2>`);
         $(`div`).append($myH2);
         $myH2.append($(`input[type=text]`).val());
         
@@ -26,7 +26,7 @@ $(document).ready(function () {
                 "background-color": "red",
                 "border-radius": "25px"
             });
-        });
+        });*/
 
     });
 
