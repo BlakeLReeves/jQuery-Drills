@@ -28,7 +28,21 @@ $(document).ready(function () {
             });
         });*/
 
+        let $myList = $(`<li></li>`).css("font-size", "25px");
+        $(`ul`).append($myList);
+        $myList.append($(`input[type=text]`).val());
+
+        $myList.click(function () {
+           let randomColor = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+            $($myList).css("color", randomColor);
+        });
+
+        $myList.dblclick(function () {
+            $($myList).remove();
+        });
+
     });
 
     $(`body`).append(`<div></div>`);
+    $(`body`).append(`<ul></ul>`);
 });
